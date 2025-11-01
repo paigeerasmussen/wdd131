@@ -1,11 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 – Dynamic Web Fundamentals – Paige Rasmussen</title>
+    <meta name="author" content="Paige Rasmussen">
+    <meta name="description"
+        content="WDD 131 – Dynamic Web Fundamentals, Paige Rasmussen, home page for the WDD 131 course">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
-    <h1>WDD 131</h1>
+    <header>
+        <h2><span id="course-title">WDD 131: Dynamic Web Fundamentals- </span></h2>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/" target="_blank" title="LinkedIn">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/" target="_blank" title="Canvas">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/26?lang=eng&id=p27#p27"
+                        target="_blank" title="Scripture">Scripture</a></li>
+                <li><a href="#" target="_blank" title="Final Project">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Paige Rasmussen</h1>
+        <div class="card-container">
+            <section class="card">
+                <h2>About Me</h2>
+                <div class="first_card">
+                    <p>Hello! My name is Paige Rasmussen and I am studying Software Development at BYU-Pathway
+                        Worldwide. I
+                        enjoy art and
+                        music, and I look forward to learning more about web design and development as I build new
+                        skills
+                        for
+                        the future.</p>
+                    <div class="profile"><img src="images/profile.jpg" alt="Paige Rasmussen Profile Picture"></div>
+                    <h3>Utah, United States</h3>
+                    <div class="utah">
+                        <p>Utah, known as the “Beehive State,” is located in the Mountain West and is famous for its
+                            stunning
+                            natural landscapes,
+                            from the snow-capped Wasatch Mountains and the vast Great Salt Lake to the red rock canyons
+                            and
+                            arches
+                            of its five
+                            national parks. Utah blends cultural heritage with outdoor adventure, offering world-class
+                            skiing,
+                            hiking, and
+                            breathtaking desert scenery.</p>
+                        <figure>
+                            <div class="flag"><img src="images/utah-flag.jpg" alt="Official Flag of Utah"></div>
+                            <figcaption>Official Flag of Utah</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <section class="card">
+                <h2>Web Dev Resources</h2>
+                <ul>
+                    <li><a href="https://dev.to/" target="_blank" title="Dev Community">Dev Community</a></li>
+                    <li><a href="https://www.smashingmagazine.com/" target="_blank" title="Smashing Magazing">Smashing
+                            Magazine</a></li>
+                    <li><a href="https://css-tricks.com/" target="_blank" title="CSS Tricks">CSS Tricks</a></li>
+                    <li><a href="https://www.w3schools.com/" target="_blank" title="W3 Schools">W3 Schools</a></li>
+                    <li><a href="https://www.udemy.com/" target="_blank" title="Udemy">Udemy</a></li>
+                    <li><a href="https://placehold.co/" target="_blank" title="Image Placeholder">Image Placeholder</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> | Paige Rasmussen | Utah</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
+
 </html>
