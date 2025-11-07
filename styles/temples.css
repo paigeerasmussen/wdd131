@@ -23,13 +23,18 @@ img {
 header {
     background-color: #B3A8AE;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 1rem;
+    grid-template-columns: 1fr .5fr;
     padding: 2rem;
 }
 
 h2 {
     font-size: 2rem;
+    align-content: center;
+}
+
+button {
+    margin-left: auto;
+    padding-right: 1rem;
 }
 
 #menu {
@@ -50,14 +55,15 @@ h2 {
 nav ul {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     list-style: none;
     font-size: 1.5rem;
+    align-items: flex-end;
 }
 
 nav a {
     display: none;
-    padding: 1rem;
+    padding: .5rem;
     text-align: center;
     text-decoration: none;
     color: black;
@@ -80,6 +86,10 @@ h1 {
     display: grid;
     grid-template-columns: 1fr;
     padding: 1rem;
+}
+
+figure {
+    text-align: center;
 }
 
 figcaption {
