@@ -32,16 +32,13 @@ h2 {
     align-content: center;
 }
 
-button {
-    margin-left: auto;
-    padding-right: 1rem;
-}
-
 #menu {
     font-size: 1.5rem;
     border: 0;
     background: none;
     color: #000;
+    margin-left: auto;
+    padding-right: 1rem;
 }
 
 #menu::before {
