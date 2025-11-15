@@ -2,6 +2,7 @@
     --main_color: #A20200;
     --secondary_color: #1B2D8F;
     --third_color: #fff;
+    --background_color: #B4BECF;
 }
 
 * {
@@ -15,7 +16,7 @@ body {
     font-weight: 500;
     max-width: 500px;
     margin: 0 auto;
-    background-color: #B4BECF;
+    background-color: var(--background_color);
 }
 
 picture img {
