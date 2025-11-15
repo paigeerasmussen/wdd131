@@ -1,7 +1,7 @@
 :root {
     --main_color: #A20200;
     --secondary_color: #1B2D8F;
-    --third_color: white;
+    --third_color: #fff;
 }
 
 * {

@@ -11,13 +11,14 @@
     .weather,
     .data {
         position: relative;
-        background-color: #FFFFFFCC;
+        background-color: var(--third_color);
+        opacity: 80%;
         padding: 4rem 1rem 1rem 1rem;
     }
 
     h2 {
         position: relative;
-        background-color: #1B2D8F;
+        background-color: var(--secondary_color);
         color: white;
         text-align: left;
     }
