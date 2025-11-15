@@ -18,6 +18,11 @@ body {
     background-color: #B4BECF;
 }
 
+picture img {
+    width: 100%;
+    height: auto;
+}
+
 header,
 footer {
     background-color: var(--main_color);
