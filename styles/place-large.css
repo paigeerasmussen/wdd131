@@ -1,0 +1,63 @@
+@media screen and (min-width: 500px) {
+
+    body {
+        max-width: 1000px;
+    }
+
+    header {
+        position: relative;
+    }
+
+    .weather,
+    .data {
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 4rem 1rem 1rem 1rem;
+    }
+
+    h2 {
+        position: relative;
+        background-color: #1B2D8F;
+        color: white;
+        text-align: left;
+    }
+
+    .data_box {
+        position: relative;
+        float: left;
+        top: -650px;
+        left: 35px;
+    }
+
+    .weather_box {
+        position: relative;
+        float: right;
+        top: -350px;
+        left: -15px;
+    }
+
+    .data_box h2 {
+        top: 60px;
+        left: -15px;
+        z-index: 2;
+    }
+
+    .weather_box h2 {
+        top: 60px;
+        left: -15px;
+        z-index: 2;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .weather_box h2::after {
+        content: "⛅";
+        padding-left: 1rem;
+    }
+}

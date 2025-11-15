@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thailand</title>
+    <meta name="description" content="">
+    <meta name="author" content="Paige Rasmussen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Thailand</h1>
+        <picture>
+            <source srcset="images/phuket_large.webp" media="(min-width: 500px)" width="100%">
+            <img src="images/phuket_small.webp" alt="Phuket, Thailand" width="100%">
+        </picture>
+    </header>
+
+    <main>
+        <section class=" data_box">
+            <h2>Data</h2>
+            <section class="data">
+                <div class="data_list">
+                    <ul>
+                        <li>Area:</li>
+                        <li>Population: </li>
+                        <li>Capital: </li>
+                        <li>Languages: </li>
+                        <li>Currency: </li>
+                        <li>Time Zone: </li>
+                        <li>Calling Code: </li>
+                        <li>Internet TLD: </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>513,120 sq km</li>
+                        <li>71,619,863</li>
+                        <li>Bangkok</li>
+                        <li>Thai</li>
+                        <li>Thai Baht (THB)</li>
+                        <li>UTC +7</li>
+                        <li>+66</li>
+                        <li>.th</li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+
+        <section class="weather_box">
+            <h2>Weather</h2>
+            <div class="icon">
+                <img src="images/cloudy_icon.svg" alt="Cloudy Icon" width="50">
+            </div>
+            <section class="weather">
+                <div class="weather_list">
+                    <ul>
+                        <li>Temperature: </li>
+                        <li>Conditions: </li>
+                        <li>Wind: </li>
+                        <li>Wind Chill: </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>49°F</li>
+                        <li>Mostly Cloudy</li>
+                        <li>4 mph</li>
+                        <li id="windChillValue"></li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> | Paige Rasmussen | Utah</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
