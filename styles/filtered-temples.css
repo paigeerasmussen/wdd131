@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #B3A8AE;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    align-content: center;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    margin-left: auto;
+    padding-right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.5rem;
+    align-items: flex-end;
+}
+
+nav a {
+    display: none;
+    padding: .5rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.open a {
+    display: block;
+}
+
+#templeCards {
+    display: grid;
+    padding: 1rem;
+    text-align: center;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.highlight {
+    color: #2B384F;
+}
+
+img {
+    margin: 1rem;
+    width: 300px;
+    height: auto;
+}
+
+section {
+    background-color: #eee;
+    border: 1px solid #00000033;
+}
+
+footer {
+    background-color: #B3A8AE;
+    text-align: center;
+    padding: 1rem;
+}
