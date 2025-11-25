@@ -32,9 +32,8 @@ const products = [
     }
 ];
 
+const productOption = products.map(product => product.name);
+console.log(productOption)
 
-// <option value="flux capacitor"></option>
-// <option value="power laces"></option>
-// <option value="time circuits"></option>
-// <option value="low voltage reactor"></option>
-// <option value="warp equalizer"></option>
+const productValues = products.map(product => product.id);
+console.log(productValues)

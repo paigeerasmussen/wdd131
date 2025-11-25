@@ -1,0 +1,26 @@
+:root {
+    ---main_color: #FFC685;
+    /* Apricot Cream */
+    --accent_color_light: #A7C064;
+    /* Muted Olive */
+    --accent_color_dark: #4D1600;
+    /* Dark Walnut */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header,
+footer {
+    background-color: var(--accent_color_light);
+    text-align: center;
+    padding: 1rem;
+    font-family: "Comfortaa", sans-serif;
+}
