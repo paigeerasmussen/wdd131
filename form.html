@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <meta name="description" content="Product Review Form for the WDD131 Course">
+    <meta name="author" content="Paige Rasmussen">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form action="review.html" method="get" class="reviewForm">
+            <fieldset>
+                <label>Product Name <select name="product" id="pname" required>
+                        <option value="" disabled selected>Select a Product ...</option>
+                    </select>
+                </label>
+
+                <div>Overall Rating</div>
+                <div class="rating">
+                    <label>☆ <input type="radio" name="rating" value="star1" required></label>
+                    <label>☆☆ <input type="radio" name="rating" value="star2"></label>
+                    <label>☆☆☆ <input type="radio" name="rating" value="star3"></label>
+                    <label>☆☆☆☆ <input type="radio" name="rating" value="star4"></label>
+                    <label>☆☆☆☆☆ <input type="radio" name="rating" value="star5"></label>
+                </div>
+
+                <label>Date of Installation <input type="date" name="installation" id="instalDate" required></label>
+
+                <div>Which features do you find useful in the product? <em>(Check all that apply)</em></div>
+                <label><input type="checkbox" name="features" id="durability" value="durability">Durability</label>
+                <label><input type="checkbox" name="features" id="easeOfUse" value="ease">Ease of Use</label>
+                <label><input type="checkbox" name="features" id="performance" value="performance">Performance</label>
+                <label><input type="checkbox" name="features" id="design" value="design">Design</label>
+
+                <label>Written Review <span id="blue1">(Optional)</span><textarea name="review"
+                        id="writReview"></textarea></label>
+
+                <label>Your Name <span id="blue2">(Optional)</span><input type="text" name="name" id="name"></label>
+                <input type="submit" value="Post Review">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> | Paige Rasmussen | Utah</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

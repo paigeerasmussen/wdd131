@@ -1,0 +1,92 @@
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------- BODY --------------*/
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*----------- HEADER --------------*/
+header,
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #B0A1BA;
+    font-size: 1.1rem;
+}
+
+/*----------- MAIN --------------*/
+main {
+    font-size: 1.1rem;
+}
+
+/*----------- FORM STYLING --------------*/
+.reviewForm fieldset {
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    background-color: #E0DCE5;
+    padding: .5rem 2%;
+    border-radius: 6px;
+}
+
+.reviewForm label {
+    display: block;
+    padding-top: 1rem;
+}
+
+.reviewForm div {
+    padding-top: 1rem;
+}
+
+.reviewForm select,
+.reviewForm input[type=date],
+.reviewForm input[type=text],
+.reviewForm textarea {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    padding: .5rem;
+    margin-top: .5rem;
+}
+
+.reviewForm input[type=radio] {
+    display: flex;
+    transform: scale(1.5);
+}
+
+.rating {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rating label {
+    padding-top: 0;
+}
+
+.reviewForm input[type=checkbox] {
+    margin: 0 .8rem 0 0;
+    transform: scale(1.5);
+}
+
+.reviewForm input[type="submit"] {
+    background-color: #B6ADC2;
+    font-size: 1.2rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin: 1rem 0;
+    padding: .5rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+#blue1,
+#blue2 {
+    color: #00087c;
+    font-size: .9rem;
+}
