@@ -52,7 +52,7 @@ if (visitsDisplay) {
     if (numVisits !== 0) {
         visitsDisplay.textContent = numVisits;
     } else {
-        visitsDisplay.textContent = 1
+        visitsDisplay.textContent = 0
     }
 
     numVisits++;
