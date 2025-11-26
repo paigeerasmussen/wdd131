@@ -56,18 +56,14 @@ main {
 }
 
 .reviewForm input[type=radio] {
-    display: flex;
     transform: scale(1.5);
 }
 
-.rating {
-    display: flex;
-    justify-content: space-around;
-}
+/* .rating input {}
 
 .rating label {
     padding-top: 0;
-}
+} */
 
 .reviewForm input[type=checkbox] {
     margin: 0 .8rem 0 0;
