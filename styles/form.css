@@ -36,12 +36,11 @@ main {
 }
 
 .reviewForm label {
-    display: block;
-    padding-top: 1rem;
+    padding: .5rem 0;
 }
 
 .reviewForm div {
-    padding-top: 1rem;
+    padding: .5rem 0;
 }
 
 .reviewForm select,
@@ -60,12 +59,8 @@ main {
 }
 
 .reviewForm input[type=checkbox] {
-    display: block;
+    display: flex;
     transform: scale(1.5);
-}
-
-.reviewForm label {
-    padding-bottom: .5rem;
 }
 
 .reviewForm input[type="submit"] {

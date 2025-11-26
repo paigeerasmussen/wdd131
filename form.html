@@ -18,10 +18,9 @@
     <main>
         <form action="review.html" method="get" class="reviewForm">
             <fieldset>
-                <label>Product Name <select name="product" id="pname" required>
-                        <option value="" disabled selected>Select a Product ...</option>
-                    </select>
-                </label>
+                <label for="pname">Product Name </label><select name="product" id="pname" required>
+                    <option value="" disabled selected>Select a Product ...</option>
+                </select>
 
                 <div>Overall Rating</div>
                 <div class="rating">
@@ -37,7 +36,8 @@
                         required>
                 </div>
 
-                <label>Date of Installation <input type="date" name="installation" id="instalDate" required></label>
+                <label for="instalDate">Date of Installation </label><input type="date" name="installation"
+                    id="instalDate" required>
 
                 <div>Which features do you find useful in the product? <em>(Check all that apply)</em></div>
                 <label for="durability">Durability</label><input type="checkbox" name="features" id="durability"
@@ -48,8 +48,8 @@
                     value="performance">
                 <label for="design">Design</label><input type="checkbox" name="features" id="design" value="design">
 
-                <label>Written Review <span id="blue1">(Optional)</span><textarea name="review"
-                        id="writReview"></textarea></label>
+                <label for="writReview">Written Review <span id="blue1">(Optional)</span></label><textarea name="review"
+                    id="writReview"></textarea>
 
                 <label for="name">Your Name <span id="blue2">(Optional)</span></label><input type="text" name="name"
                     id="name">
