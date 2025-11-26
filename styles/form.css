@@ -90,3 +90,10 @@ main {
     color: #00087c;
     font-size: .9rem;
 }
+
+/*----------- REVIEW PAGE --------------*/
+h3,
+.label {
+    text-align: center;
+    padding: 1rem;
+}
