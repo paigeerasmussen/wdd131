@@ -35,10 +35,6 @@ main {
     border-radius: 6px;
 }
 
-.reviewForm label {
-    padding: .5rem 0;
-}
-
 .reviewForm div {
     padding: .5rem 0;
 }
@@ -59,9 +55,11 @@ main {
 }
 
 .reviewForm input[type=checkbox] {
-    display: flex;
+    display: block;
     transform: scale(1.5);
 }
+
+/* .features {} */
 
 .reviewForm input[type="submit"] {
     background-color: #B6ADC2;

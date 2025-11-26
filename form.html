@@ -40,17 +40,18 @@
                     id="instalDate" required>
 
                 <div>Which features do you find useful in the product? <em>(Check all that apply)</em></div>
-                <label for="durability">Durability</label><input type="checkbox" name="features" id="durability"
-                    value="durability">
-                <label for="easeOfUse">Ease of Use</label><input type="checkbox" name="features" id="easeOfUse"
-                    value="ease">
-                <label for="performance">Performance</label><input type="checkbox" name="features" id="performance"
-                    value="performance">
-                <label for="design">Design</label><input type="checkbox" name="features" id="design" value="design">
+                <div class="features">
+                    <label for="durability">Durability</label><input type="checkbox" name="features" id="durability"
+                        value="durability">
+                    <label for="easeOfUse">Ease of Use</label><input type="checkbox" name="features" id="easeOfUse"
+                        value="ease">
+                    <label for="performance">Performance</label><input type="checkbox" name="features" id="performance"
+                        value="performance">
+                    <label for="design">Design</label><input type="checkbox" name="features" id="design" value="design">
+                </div>
 
                 <label for="writReview">Written Review <span id="blue1">(Optional)</span></label><textarea name="review"
                     id="writReview"></textarea>
-
                 <label for="name">Your Name <span id="blue2">(Optional)</span></label><input type="text" name="name"
                     id="name">
                 <input type="submit" value="Post Review">
