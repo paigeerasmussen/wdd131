@@ -35,8 +35,13 @@ main {
     border-radius: 6px;
 }
 
+.reviewForm label {
+    display: block;
+    padding-top: 1rem;
+}
+
 .reviewForm div {
-    padding: .5rem 0;
+    padding-top: 1rem;
 }
 
 .reviewForm select,
@@ -51,15 +56,23 @@ main {
 }
 
 .reviewForm input[type=radio] {
+    display: flex;
     transform: scale(1.5);
+}
+
+.rating {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rating label {
+    padding-top: 0;
 }
 
 .reviewForm input[type=checkbox] {
-    display: block;
+    margin: 0 .8rem 0 0;
     transform: scale(1.5);
 }
-
-/* .features {} */
 
 .reviewForm input[type="submit"] {
     background-color: #B6ADC2;
