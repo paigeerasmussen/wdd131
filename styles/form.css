@@ -59,15 +59,13 @@ main {
     transform: scale(1.5);
 }
 
-/* .rating input {}
-
-.rating label {
-    padding-top: 0;
-} */
-
 .reviewForm input[type=checkbox] {
-    margin: 0 .8rem 0 0;
+    display: block;
     transform: scale(1.5);
+}
+
+.reviewForm label {
+    padding-bottom: .5rem;
 }
 
 .reviewForm input[type="submit"] {
