@@ -7,7 +7,7 @@
 
 /*----------- BODY --------------*/
 body {
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -50,7 +50,7 @@ main {
 .reviewForm textarea {
     display: block;
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     padding: .5rem;
     margin-top: .5rem;
 }
@@ -82,7 +82,7 @@ main {
     margin: 1rem 0;
     padding: .5rem;
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 #blue1,
@@ -96,4 +96,22 @@ h3,
 .label {
     text-align: center;
     padding: 1rem;
+}
+
+/*----------- MEDIA QUERY --------------*/
+@media screen and (min-width: 500px) {
+    body {
+        max-width: 800px;
+    }
+
+    .reviewForm select,
+    .reviewForm input[type=date],
+    .reviewForm input[type=text],
+    .reviewForm textarea {
+        max-width: 800px;
+    }
+
+    .reviewForm input[type="submit"] {
+        max-width: 800px;
+    }
 }
