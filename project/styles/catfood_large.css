@@ -1,0 +1,91 @@
+:root {
+    ---main_color: #FFC685;
+    /* Apricot Cream */
+    --accent_color_light: #A7C064;
+    /* Muted Olive */
+    --accent_color_dark: #4D1600;
+    /* Dark Walnut */
+}
+
+@media screen and (min-width: 500px) {
+
+    /*----------- BODY --------------*/
+    body {
+        max-width: 1100px;
+    }
+
+    /*----------- MAIN --------------*/
+    .company {
+        display: grid;
+        grid-template-columns: 650px 1fr;
+        grid-template-rows: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    /*----------- HEADER --------------*/
+    #menu {
+        display: none;
+    }
+
+    header {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    header h2 {
+        text-align: center;
+    }
+
+    /*----------- NAVIGATION --------------*/
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav a {
+        display: block;
+        padding: .2rem 1rem;
+    }
+
+    /*----------- CALL TO ACTION --------------*/
+    .callToAction {
+        grid-column: 1;
+    }
+
+    .callToAction h2 {
+        top: 0;
+        opacity: 100%;
+    }
+
+    .callToAction img {
+        margin-top: 5rem;
+        width: 650px;
+    }
+
+    .callToAction button {
+        max-width: 50%;
+        left: 10rem;
+    }
+
+    /*----------- PURPOSE --------------*/
+    .purpose {
+        grid-column: 2;
+        grid-row: 1;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .purpose p {
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    /*----------- TABLES --------------*/
+    .tables {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}

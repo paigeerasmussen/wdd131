@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Food Comparisons</title>
-    <meta name="description" content="A comparison of different cat food brands">
+    <meta name="description" content="A comparison of different cat food brands to show pros and cons of each brand.">
     <meta name="author" content="Paige Rasmussen">
     <link rel="stylesheet" href="styles/catfood.css">
+    <link rel="stylesheet" href="styles/catfood_large.css">
     <script src="scripts/catfood.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,8 +22,39 @@
 
 <body>
     <header>
-        <h1>Cat Food Comparisons</h1>
+        <img src="images/cat_logo.png" alt="Cat Food Comparisons Logo" loading="lazy" width="80">
+        <h2>Cat Food Comparisons</h2>
+        <button id="menu" aria-label="Toggle navigation menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="purina.html">Purina Pro Plan</a></li>
+                <li><a href="hills.html">Hills Science Diet</a></li>
+                <li><a href="royal.html">Royal Canin</a></li>
+                <li><a href="farm.html">Farm Fresh</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <main>
+        <div class="company">
+            <section class="purpose">
+                <h1>Our Purpose</h1>
+                <img src="images/cat_purpose.webp" alt="Orange Tabby Cat" width="200" loading="lazy">
+                <p>Here at Cat Food Comparisons, we strive to give accurate and helpful
+                    information on different cat food brands to make your life easier.
+                    Our goal is to make finding the perfect cat food simple, in a world
+                    full of difficulty. No stress! Just good decisions for you and
+                    your cat!</p>
+            </section>
+
+            <section class="callToAction">
+                <h2>Find Your Perfect Cat Food!</h2>
+                <img src="images/cat_call_to_action.webp" alt="Fun Cat Picture" loading="lazy" width="500">
+                <a href="purina.html"><button>Start Comparing!</button></a>
+            </section>
+        </div>
+    </main>
 
     <footer>
         <p>&copy;<span id="year"></span> | Paige Rasmussen | Utah</p>
