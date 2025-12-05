@@ -1,10 +1,13 @@
 :root {
-    ---main_color: #FFC685;
+    --main_color: #FFC685;
     /* Apricot Cream */
     --accent_color_light: #A7C064;
     /* Muted Olive */
     --accent_color_dark: #4D1600;
     /* Dark Walnut */
+    --border: 1px solid #FFC685;
+    --font_main: #000;
+    --font_secondary: #fff;
 }
 
 * {
@@ -24,6 +27,7 @@ body {
 h1 {
     text-align: center;
     padding: 1rem;
+    border-bottom: var(--border);
 }
 
 /*----------- HEADER --------------*/
@@ -56,10 +60,12 @@ header img {
 
 #menu::before {
     content: "☰";
+    color: var(--font_main);
 }
 
 #menu.open::before {
     content: "X";
+    color: var(--font_main);
 }
 
 nav ul {
@@ -76,7 +82,7 @@ nav a {
     padding: .5rem;
     text-align: center;
     text-decoration: none;
-    color: #000;
+    color: var(--font_main);
     font-size: 1.2rem;
     font-family: "Roboto", sans-serif;
 }
@@ -98,7 +104,7 @@ nav a:hover {
     padding: 1rem;
     gap: 1rem;
     margin-bottom: 1rem;
-    background-color: var(---main_color);
+    background-color: var(--main_color);
 }
 
 .purpose h1 {
@@ -124,7 +130,7 @@ nav a:hover {
 .callToAction h2 {
     position: absolute;
     background-color: var(--accent_color_dark);
-    color: #fff;
+    color: var(--font_secondary);
     opacity: 80%;
     padding: 1rem;
     top: 1.5rem;
@@ -139,7 +145,7 @@ nav a:hover {
 .callToAction button {
     position: absolute;
     background-color: var(--accent_color_dark);
-    color: #fff;
+    color: var(--font_secondary);
     padding: 1rem;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -151,36 +157,43 @@ nav a:hover {
     font-weight: 550;
 }
 
-/*----------- TABLE --------------*/
-.tables {
+/*----------- NUTRITION --------------*/
+#nutrition {
     display: flex;
     flex-direction: column;
 }
 
-table {
-    border-collapse: collapse;
-    border: 1px solid #000;
+.highlight {
+    font-weight: 600;
+}
+
+#nutrition section {
+    border: var(--border);
+    padding: 1rem;
     margin: 1rem;
-    max-width: 450px;
+    max-width: 400px;
+    background-color: #FFEBD6;
 }
 
-th,
-td {
-    padding: 7px 15px;
-    border: 1px solid #000;
-    text-align: center;
-}
 
-tbody th {
-    background-color: var(---main_color);
-}
-
-thead th {
-    background-color: var(--accent_color_dark);
-    color: #fff;
+#nutrition p {
     padding: .5rem;
 }
 
+#nutrition h3 {
+    padding: .5rem;
+    text-align: center;
+    border-bottom: var(--border);
+}
+
+#nutrition h2 {
+    text-align: center;
+    border-bottom: var(--border);
+    padding: .5rem;
+    background-color: var(--main_color);
+}
+
+/*----------- BUTTON --------------*/
 .next {
     display: block;
     background-color: #4D1600;

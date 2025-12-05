@@ -5,6 +5,9 @@
     /* Muted Olive */
     --accent_color_dark: #4D1600;
     /* Dark Walnut */
+    --border: 1px solid #FFC685;
+    --font_main: #000;
+    --font_secondary: #fff;
 }
 
 @media screen and (min-width: 500px) {
@@ -82,8 +85,8 @@
         padding-top: 1rem;
     }
 
-    /*----------- TABLES --------------*/
-    .tables {
+    /*----------- NUTRITION --------------*/
+   #nutrition {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
