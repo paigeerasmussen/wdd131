@@ -155,7 +155,7 @@ function createInfoCard(nutrition) {
         sectionTwo.textContent = nutritionCard.thName2;
         ingredients.textContent = nutritionCard.ingredients;
 
-
+        
         card.appendChild(name);
         card.appendChild(sectionOne);
         card.appendChild(protein);
