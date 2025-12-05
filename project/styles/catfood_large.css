@@ -86,9 +86,15 @@
     }
 
     /*----------- NUTRITION --------------*/
-   #nutrition {
+    #nutrition {
         display: grid;
+        align-items: start;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    /*----------- FOODINFO --------------*/
+    .foodInfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

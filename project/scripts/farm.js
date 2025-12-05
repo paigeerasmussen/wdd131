@@ -1,5 +1,3 @@
-// update cards
-
 const nutrition = [
     {
         foodName: "RAWMIX GRAIN-FREE KITTEN KIBBLE",
@@ -37,7 +35,7 @@ const nutrition = [
         protein: "38.0%",
         fat: "14.0%",
         fiber: "3.0%",
-        carbohydrate: "17.0%",
+        carbohydrate: "28.0%",
         moisture: "10.0%",
         linoleic: "N/A",
         aAcid: "N/A",
@@ -45,8 +43,8 @@ const nutrition = [
         eAcid: "N/A",
         calcium: "1.0%",
         phosphorus: "0.8%",
-        potassium: "0.8%",
-        sodium: "0.5%",
+        potassium: "0.9%",
+        sodium: "0.45%",
         magnesium: "0.15%",
         vitA: "N/A",
         vitC: "N/A",
@@ -59,37 +57,37 @@ const nutrition = [
         glucosamine: "N/A",
         cSulfate: "N/A",
         thName2: "Ingredients",
-        ingredients: "Chicken, Menhaden Fish Meal, Peas, Ocean Whitefish Meal, Coconut Oil, Salmon, Turkey, Sunflower Oil(Preserved with Mixed Tocopherols), Pumpkin, Lentils, Natural Flavor, Cranberries, Apples, Dandelion Greens, Vitamins (Niacin Supplement, Vitamin E Supplement, Vitamin A Supplement, Thiamine Mononitrate, Pantothenic Acid, Pyridoxine Hydrochloride, Vitamin D3 Supplement, Riboflavin Supplement, Vitamin B12 Supplement, Folic Acid, Biotin), Minerals (Zinc Proteinate, Iron Proteinate, Copper Proteinate, Manganese Proteinate, Sodium Selenite, Calcium Iodate), Potatoes, Tapioca, Chicken Liver, Chicken Neck, Choline Chloride, Taurine, Chicken Bone Broth, Turmeric, Dried Yucca Schidigera Extract, Organic Butternut Squash, Organic Blueberries, Organic Spinach, Organic Kale, Organic Apple Cider Vinegar, Organic Pumpkin Seeds, Organic Sunflower Seeds, Rosemary Extract."
+        ingredients: "Chicken, Turkey, Menhaden Fish Meal, Peas, Chickpeas, Ocean Whitefish Meal, Lentils, Coconut Oil, Pumpkin, Natural Flavor, Cranberries, Apples, Sunflower Oil (Preserved with Mixed Tocopherols), Dandelion Greens, Chicken Liver, Chicken Neck, Vitamins (Niacin Supplement, Vitamin E Supplement, Vitamin A Supplement, Thiamine Mononitrate, Pantothenic Acid, Pyridoxine Hydrochloride, Vitamin D3 Supplement, Riboflavin Supplement, Vitamin B12 Supplement, Folic Acid, Biotin), Potatoes, Tapioca, Dried Chicory Root, Choline Chloride, Minerals (Zinc Proteinate, Iron Proteinate, Copper Proteinate, Manganese Proteinate, Sodium Selenite, Calcium lodate), Organic Butternut Squash, Organic Carrots, Organic Blueberries, Turkey Gizzard, Montmorillonite Clay, Miscanthus Grass, Chicken Bone Broth, Flaxseed, Turmeric, Dried Yucca Schidigera Extract, Taurine, Organic Spinach, Organic Kale, Organic Apple Cider Vinegar, Organic Pumpkin Seeds, Organic Sunflower Seeds, Rosemary Extract."
     },
     {
-        foodName: "RAWMIX GRAIN-FREE KITTEN KIBBLE",
+        foodName: "HOMESTEAD TURKEY & CHICKEN GRAIN-FREE CAT KIBBLE",
         thName1: "Guaranteed Analysis",
-        protein: "40.0%",
-        fat: "20.0%",
-        fiber: "3%",
-        carbohydrate: "17.0%",
-        moisture: "10%",
+        protein: "37.0%",
+        fat: "18.0%",
+        fiber: "3.0%",
+        carbohydrate: "22.0%",
+        moisture: "10.0%",
         linoleic: "N/A",
         aAcid: "N/A",
-        dAcid: "0.2%",
+        dAcid: "N/A",
         eAcid: "N/A",
         calcium: "1.0%",
         phosphorus: "0.8%",
-        potassium: "0.8%",
-        sodium: "0.5%",
+        potassium: "1.0%",
+        sodium: "0.8%",
         magnesium: "0.15%",
-        vitA: "N/A",
+        vitA: "9000 IU/kg",
         vitC: "N/A",
-        vitE: "N/A",
+        vitE: "40 IU/kg",
         taurine: "0.2%",
         carnitine: "N/A",
-        omega3: "1.0%",
-        omega6: "2.5%",
+        omega3: "1.3%",
+        omega6: "4.0%",
         bacillus: "N/A",
         glucosamine: "N/A",
         cSulfate: "N/A",
         thName2: "Ingredients",
-        ingredients: "Chicken, Menhaden Fish Meal, Peas, Ocean Whitefish Meal, Coconut Oil, Salmon, Turkey, Sunflower Oil(Preserved with Mixed Tocopherols), Pumpkin, Lentils, Natural Flavor, Cranberries, Apples, Dandelion Greens, Vitamins (Niacin Supplement, Vitamin E Supplement, Vitamin A Supplement, Thiamine Mononitrate, Pantothenic Acid, Pyridoxine Hydrochloride, Vitamin D3 Supplement, Riboflavin Supplement, Vitamin B12 Supplement, Folic Acid, Biotin), Minerals (Zinc Proteinate, Iron Proteinate, Copper Proteinate, Manganese Proteinate, Sodium Selenite, Calcium Iodate), Potatoes, Tapioca, Chicken Liver, Chicken Neck, Choline Chloride, Taurine, Chicken Bone Broth, Turmeric, Dried Yucca Schidigera Extract, Organic Butternut Squash, Organic Blueberries, Organic Spinach, Organic Kale, Organic Apple Cider Vinegar, Organic Pumpkin Seeds, Organic Sunflower Seeds, Rosemary Extract."
+        ingredients: "Turkey, Chicken, Ocean Whitefish Meal, Herring Meal, Chickpeas, Red Lentils, Coconut Oil, Menhaden Fish Meal, Green Lentils, Pumpkin, Natural Flavor, Cranberries, Apples, Dandelion Greens, Salt, Dried Chicory Root, Potassium Chloride, Choline Chloride, Calcium Carbonate, Vitamins (Niacin Supplement, Vitamin E Supplement, Vitamin A Supplement, Thiamine Mononitrate, D-Calcium Pantothenate, Riboflavin Supplement, Pyridoxine Hydrochloride, Vitamin D3 Supplement, Vitamin B12 Supplement, Folic Acid, Biotin), Taurine, Minerals (Zinc Proteinate, Iron Proteinate, Copper Proteinate, Manganese Proteinate, Sodium Selenite, Calcium lodate), Mixed Tocopherols (a preservative), Turmeric, Dried Yucca Schidigera Extract, Rosemary Extract."
     },
 ];
 

@@ -1,5 +1,3 @@
-// update cards
-
 const nutrition = [
     {
         foodName: "KITTEN CHICKEN RECIPE",

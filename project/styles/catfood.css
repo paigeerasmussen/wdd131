@@ -30,6 +30,10 @@ h1 {
     border-bottom: var(--border);
 }
 
+a {
+    text-decoration: none;
+}
+
 /*----------- HEADER --------------*/
 header {
     background-color: var(--accent_color_light);
@@ -81,7 +85,6 @@ nav a {
     display: none;
     padding: .5rem;
     text-align: center;
-    text-decoration: none;
     color: var(--font_main);
     font-size: 1.2rem;
     font-family: "Roboto", sans-serif;
@@ -157,10 +160,19 @@ nav a:hover {
     font-weight: 550;
 }
 
+/*----------- IMAGES --------------*/
+.farmFresh img {
+    padding: 1rem 1rem 0 1rem;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
 /*----------- NUTRITION --------------*/
 #nutrition {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .highlight {
@@ -193,11 +205,27 @@ nav a:hover {
     background-color: var(--main_color);
 }
 
+/*----------- FOODINFO --------------*/
+.foodInfo {
+    text-align: center;
+    padding: 0 1rem 1rem 1rem;
+    margin: 0 1rem 1rem 1rem;
+    background-color: var(--accent_color_dark);
+    color: var(--font_secondary);
+}
+
+.foodInfo h3 {
+    padding: 1rem 0;
+}
+
+.foodInfo p {
+    padding: .5rem;
+}
+
 /*----------- BUTTON --------------*/
 .next {
     display: block;
-    background-color: #4D1600;
-    color: #fff;
+    background-color: var(--accent_color_light);
     text-align: center;
     padding: 1rem 3rem;
     border-radius: 8px;
