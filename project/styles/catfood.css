@@ -283,7 +283,7 @@ nav a:hover {
     max-width: 500px;
 }
 
-#optional {
+#optional1, #optional2 {
     font-style: italic;
     font-size: .9rem;
 }

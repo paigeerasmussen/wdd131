@@ -20,7 +20,7 @@
 
 <body>
     <header>
-        <img src="images/cat_logo.png" alt="Cat Food Comparisons Logo" loading="lazy" width="80">
+        <img src="images/cat_logo.png" alt="Cat Food Comparisons Logo" loading="lazy" width="80" height="80">
         <h2>Cat Food Comparisons</h2>
         <button id="menu" aria-label="Toggle navigation menu"></button>
         <nav>
@@ -46,13 +46,13 @@
                 <label for="name">*Name </label><input type="text" name="name" id="name" required>
                 <label for="email">*Email </label><input type="email" name="email" id="email"
                     placeholder="yourname@gmail.com" required>
-                <label for="phone">*Phone Number </label><input type="tel" name="phone" placeholder="123-456-1234"
+                <label for="phone">*Phone Number </label><input type="tel" name="phone" id="phone" placeholder="123-456-1234"
                     required>
                 <label for="brand">*Which brand are you most interested in? </label><select name="brand" id="brand"
                     required>
                     <option value="" disabled selected>Select an Option ...</option>
                 </select>
-                <label for="rating">How would you rate your website experience? <span id="optional">(Optional)
+                <label for="rating">How would you rate your website experience? <span id="optional1">(Optional)
                     </span></label><select name="rating" id="rating">
                     <option value="" disabled selected>Select an Option ...</option>
                     <option value="star1">☆</option>
@@ -61,7 +61,7 @@
                     <option value="star4">☆☆☆☆</option>
                     <option value="star5">☆☆☆☆☆</option>
                 </select>
-                <label for="message">Message <span id="optional">(Optional) </span></label> <textarea name="message"
+                <label for="message">Message <span id="optional2">(Optional) </span></label> <textarea name="message"
                     id="message"></textarea>
                 <input type="submit" value="Get in touch!">
             </fieldset>
