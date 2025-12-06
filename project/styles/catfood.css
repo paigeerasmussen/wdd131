@@ -267,7 +267,7 @@ nav a:hover {
     max-width: 500px;
 }
 
-.contactForm input[type="sumbit"] {
+.contactForm input[type="submit"] {
     background-color: var(--accent_color_dark);
     color: var(--font_secondary);
     padding: .5rem 0;
