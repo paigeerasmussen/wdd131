@@ -172,6 +172,14 @@ nav a:hover {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+    aspect-ratio: 700/467;
+}
+.brandImgFarm img {
+    padding: 1rem 1rem 0 1rem;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
     aspect-ratio: 700/466;
 }
 
