@@ -80,13 +80,11 @@ nav ul {
     list-style: none;
     flex-direction: column;
     align-items: center;
-    padding-left: 6rem;
-    padding-top: .5rem;
+    padding: .5rem 0 0 6rem;
 }
 
 nav a {
     display: none;
-    padding: .5rem;
     text-align: center;
     color: var(--font_main);
     font-size: 1.2rem;
@@ -138,7 +136,7 @@ nav a:hover {
     position: absolute;
     background-color: var(--accent_color_dark);
     color: var(--font_secondary);
-    opacity: 80%;
+    opacity: .8;
     padding: 1rem;
     top: 1.5rem;
     text-align: center;
@@ -173,15 +171,6 @@ nav a:hover {
     max-width: 100%;
     height: auto;
     aspect-ratio: 700/467;
-}
-
-.brandImgFarm img {
-    padding: 1rem 1rem 0 1rem;
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    aspect-ratio: 700/466;
 }
 
 /*----------- NUTRITION --------------*/
@@ -240,24 +229,22 @@ nav a:hover {
 
 /*----------- BUTTONS --------------*/
 .next {
-    display: block;
-    background-color: var(--accent_color_dark);
-    color: var(--font_secondary);
-    text-align: center;
     padding: 1rem 3rem;
-    border-radius: 8px;
-    border: none;
     font-size: 1.2rem;
     margin: 1rem auto;
     max-width: 42%;
 }
 
 .nutritionButton {
+    padding: 1rem 1.5rem;
+}
+
+.nutritionButton,
+.next {
     display: block;
     background-color: var(--accent_color_dark);
     color: var(--font_secondary);
     text-align: center;
-    padding: 1rem 1.5rem;
     border-radius: 8px;
     border: none;
 }
