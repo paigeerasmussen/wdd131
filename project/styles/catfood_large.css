@@ -106,6 +106,6 @@
     .toggle button,
     .toggle h3,
     .header3 {
-        display: none;
+        visibility: hidden;
     }
 }

@@ -61,6 +61,8 @@ header img {
     font-size: 2rem;
     margin-left: auto;
     padding-right: 1rem;
+    width: 60px;
+    height: auto;
 }
 
 #menu::before {
@@ -170,6 +172,7 @@ nav a:hover {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+    aspect-ratio: 700/466;
 }
 
 /*----------- NUTRITION --------------*/
@@ -177,6 +180,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
+    min-height: 300px;
 }
 
 .highlight {
