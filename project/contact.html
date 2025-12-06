@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Food Comparisons- Contact Us!</title>
+    <meta name="description" content="A contact form for Cat Food Comparisons brand comparisons">
+    <meta name="author" content="Paige Rasmussen">
+    <link rel="stylesheet" href="styles/catfood.css">
+    <link rel="stylesheet" href="styles/catfood_large.css">
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/contact.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/cat_logo.png" alt="Cat Food Comparisons Logo" loading="lazy" width="80">
+        <h2>Cat Food Comparisons</h2>
+        <button id="menu" aria-label="Toggle navigation menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="purina.html">Purina Pro Plan</a></li>
+                <li><a href="hills.html">Hills Science Diet</a></li>
+                <li><a href="royal.html">Royal Canin</a></li>
+                <li><a href="farm.html">Farm Fresh</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact">
+            <h1>Contact us!</h1>
+            <p>Want more information on your favorite brands?</p>
+            <p>Contact us at catfoodcomparisons@gmail.com or fill out the form below!</p>
+        </div>
+        <form action="thanks.html" method="get" class="contactForm">
+            <fieldset>
+                <label for="name">*Name </label><input type="text" name="name" id="name" required>
+                <label for="email">*Email </label><input type="email" name="email" id="email"
+                    placeholder="yourname@gmail.com" required>
+                <label for="phone">*Phone Number </label><input type="tel" name="phone" placeholder="123-456-1234"
+                    required>
+                <label for="brand">*Which brand are you most interested in? </label><select name="brand" id="brand"
+                    required>
+                    <option value="" disabled selected>Select an Option ...</option>
+                </select>
+                <label for="rate">How would you rate your website experience? <span id="optional">(Optional)
+                    </span></label><select name="rating" id="rating">
+                    <option value="" disabled selected>Select an Option ...</option>
+                    <option value="star1">☆</option>
+                    <option value="star2">☆☆</option>
+                    <option value="star3">☆☆☆</option>
+                    <option value="star4">☆☆☆☆</option>
+                    <option value="star5">☆☆☆☆☆</option>
+                </select>
+                <label for="message">Message <span id="optional">(Optional) </span></label> <textarea name="message"
+                    id="message"></textarea>
+                <input type="sumbit" value="Get in touch!">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> | Paige Rasmussen | Utah</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
