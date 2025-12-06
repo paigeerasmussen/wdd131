@@ -174,9 +174,9 @@ nav a:hover {
 
 /*----------- NUTRITION --------------*/
 #nutrition {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
 }
 
 .highlight {
@@ -225,7 +225,7 @@ nav a:hover {
     padding: .5rem;
 }
 
-/*----------- BUTTON --------------*/
+/*----------- BUTTONS --------------*/
 .next {
     display: block;
     background-color: var(--accent_color_dark);
@@ -237,6 +237,36 @@ nav a:hover {
     font-size: 1.2rem;
     margin: 1rem auto;
     max-width: 42%;
+}
+
+.nutritionButton {
+    display: block;
+    background-color: var(--accent_color_dark);
+    color: var(--font_secondary);
+    text-align: center;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+}
+
+/*----------- H3 --------------*/
+.header3 {
+    font-size: 1.2rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+/*----------- TOGGLE --------------*/
+.toggle {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    place-items: center;
+    margin-top: 1rem;
+    padding-right: 1rem;
+}
+
+.toggle h3 {
+    font-size: 1.2rem;
 }
 
 /*----------- FORM --------------*/
@@ -283,7 +313,8 @@ nav a:hover {
     max-width: 500px;
 }
 
-#optional1, #optional2 {
+#optional1,
+#optional2 {
     font-style: italic;
     font-size: .9rem;
 }

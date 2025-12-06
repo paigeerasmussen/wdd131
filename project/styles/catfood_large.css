@@ -87,7 +87,6 @@
 
     /*----------- NUTRITION --------------*/
     #nutrition {
-        display: grid;
         align-items: start;
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -101,5 +100,12 @@
     /*----------- BUTTON --------------*/
     .next {
         max-width: 25%;
+    }
+
+    /*----------- TOGGLE --------------*/
+    .toggle button,
+    .toggle h3,
+    .header3 {
+        display: none;
     }
 }

@@ -26,3 +26,12 @@ if (visitsDisplay) {
     numVisits++;
     localStorage.setItem("numVisits-ls", numVisits);
 }
+
+function nutritionToggle() {
+    var content = document.getElementById("nutrition");
+    if (content.style.display === "none") {
+        content.style.display = "grid";
+    } else {
+        content.style.display = "none"
+    }
+}
